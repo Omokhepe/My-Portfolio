@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 150px 0 0 300px;
+    background-color: #23252C; 
+}
+.App{
+  
+   height: 900px;
+   width: 350px;
+   background-color: #1A1B21;
+   border-radius: 6px;
+   align-items: center;
+  
+   
+}
+.app--set{
+    padding: 30px;
+}
+
+.info--image{
+    height: 400px;
+    width: 350px;
+    align-items: center;
+    border-radius: 6px 6px 0 0;
+}
+.info--name{
+    color:white;
+    margin: 0;
+    font-family: inter;
+}
+.info--desc{
+    color:#F3BF99;
+    margin: 0;
+}
+.info--site{
+    color: #F5F5F5;
+    margin: 0;
+    font-weight: lighter;
+}
+
+button{
+    width: 125px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 8px;
+    margin-bottom: 0;
+    
+}
+.info--social{
+    background-color: #5093E2;
+    color: white;
+}
+.info--emailpix, .info--igpix{
+    height: 10px;
+    margin-right: 8px;
+}
+.about--title, .interest--head{
+    color: #DCDCDC;
+    margin-bottom: 0;
+    text-align:left;
+}
+
+.about--body, .interest--body{
+    color:#F5F5F5;
+    font-size: smaller;
+    text-align: left;
+    margin-top: 0;
+}
+.footer--page{
+    height: 55px;
+    width: 350px;
+    background-color: #161619;
+    border-radius: 0 0 6px 6px;
+    position: fixed;
+    bottom: 0;
+
+}
+.footer--twitter, .footer--fb, .footer--ig,.footer--in{
+    height: 25px;
+    margin: 10px;
+}
